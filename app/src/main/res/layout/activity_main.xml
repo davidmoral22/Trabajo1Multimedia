@@ -11,6 +11,7 @@
     <ImageView
         android:layout_width="260dp"
         android:layout_height="260dp"
+        android:src="@drawable/logo"
         android:scaleType="fitCenter"
         android:contentDescription="Logo de la aplicación" />
 
@@ -26,6 +27,7 @@
             android:layout_height="64dp"
             android:layout_margin="12dp"
             android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_call"
             app:tint="@color/icono_tint"
             android:contentDescription="Teléfono" />
 
@@ -35,6 +37,7 @@
             android:layout_height="64dp"
             android:layout_margin="12dp"
             android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_web"
             app:tint="@color/icono_tint"
             android:contentDescription="Navegador" />
 
@@ -44,6 +47,7 @@
             android:layout_height="64dp"
             android:layout_margin="12dp"
             android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_mail"
             app:tint="@color/icono_tint"
             android:contentDescription="Correo" />
 
@@ -53,6 +57,7 @@
             android:layout_height="64dp"
             android:layout_margin="12dp"
             android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_map"
             app:tint="@color/icono_tint"
             android:contentDescription="Google Maps" />
     </GridLayout>
